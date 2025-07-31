@@ -30,6 +30,7 @@ Create a virtual environment and install the dependencies:
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+```
 
 ---
 ##  📈 Output Format
