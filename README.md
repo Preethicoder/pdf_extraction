@@ -21,7 +21,17 @@ This project is a Python-based tool to extract content from both **text-based** 
 - ⚡ Asynchronous mode for handling large-scale, multi-user input
 
 ---
+## Required Packages
 
+pip install paddleocr
+pip install pdf2image
+pip install pytesseract
+pip install pdfplumber
+pip install pandas
+pip install opencv-python
+pip install PyMuPDF
+
+---
 ## 🛠️ Installation
 
 Create a virtual environment and install the dependencies:
@@ -41,5 +51,16 @@ Extracted tables: .csv or .xlsx (one file per table)
 Extracted images: .png
 
 Summary report printed to console
+=== Extraction Summary ===
+PDF file: ./sample_pdf/Laborbefund.pdf
+Pages processed: 3
+Tables found: 5
+Images saved: 2
+==========================
+✅ Text saved to: extracted_output/Laborbefund.txt
+
+---
+## 👩‍💻 Author
+Preethi Sivakumar
 
 
